@@ -86,7 +86,7 @@ namespace CustomListProjectTest
             test.Count
             actual = test.Count;
         }
-        public void Add_AddToPopulatedList_CountShouldIncreasetoNine()
+        public void Add_AddToPopulatedList_CountShouldIncreaseToNine()
         {
             CustomListTest<int> test = new CustomListTest<int>();
             int expected = 9;
@@ -96,10 +96,41 @@ namespace CustomListProjectTest
             Assert.AreEqual(expected, actual);
         }
 
-        public void Add_AddToPopulatedList_
-
-
-
-       
+        public void Add_AddToPopulatedList_ItemShouldGoToIndexFour()
+        {
+            CustomListTest<int> test = new CustomListTest<int>();
+            int expected = 5;
+            int actual;
+            test.Add(5);
+            actual = test[4];
+            Assert.AreEqual(expected, actual);
+        }
+        public void Add_AddToPopulatedList_CapacityShouldIncreaseToTwelve()
+        {
+            CustomListTest<int> test = new CustomListTest<int>();
+            int expected = 9;
+            int actual;
+            test.Capacity();
+            actual = test.Capacity(9);
+            Assert.AreEqual(expected, actual);
+        }
+       public void Add_AddToPopulatedList_ItemShouldGoToIndexEight()
+        {
+            CustomListTest<int> test = new CustomListTest<int>();
+            int expected = 9;
+            int actual;
+            test.Add(9);
+            actual = test.Add[8];
+            Assert.AreEqual(expected, actual);
+        }
+       public void Add_AddToPopulatedList_CapacityShouldStayAtTwelve()
+        {
+            CustomListTest<int> test = new CustomListTest<int>();
+            int expected = 10;
+            int actual;
+            test.Capacity();
+            actual = test.Capacity(10);
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
