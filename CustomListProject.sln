@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomListProject", "CustomListProject\CustomListProject.csproj", "{91682818-91BC-4C22-A9C6-50B3D5AC31C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomListProjectTest", "CustomListProjectTest\CustomListProjectTest.csproj", "{61D964D9-1675-4E7E-A098-66B4BAEAA732}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CCB337C6-E48F-4A36-A5FC-035FE5A32666}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91682818-91BC-4C22-A9C6-50B3D5AC31C9}.Debug|x86.ActiveCfg = Debug|x86
+		{91682818-91BC-4C22-A9C6-50B3D5AC31C9}.Debug|x86.Build.0 = Debug|x86
+		{91682818-91BC-4C22-A9C6-50B3D5AC31C9}.Release|x86.ActiveCfg = Release|x86
+		{91682818-91BC-4C22-A9C6-50B3D5AC31C9}.Release|x86.Build.0 = Release|x86
+		{61D964D9-1675-4E7E-A098-66B4BAEAA732}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{61D964D9-1675-4E7E-A098-66B4BAEAA732}.Debug|x86.Build.0 = Debug|Any CPU
+		{61D964D9-1675-4E7E-A098-66B4BAEAA732}.Release|x86.ActiveCfg = Release|Any CPU
+		{61D964D9-1675-4E7E-A098-66B4BAEAA732}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
