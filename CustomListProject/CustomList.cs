@@ -3,14 +3,9 @@ using System.Collections.Generic;
 
 namespace CustomListProject
 {
-    public class CustomListTest<T> : IEnumerable;
+    public class CustomList<T> /*: IEnumerable*/
     {
         private List<string> singerList;
-
-        public CustomListTest()
-        {
-            singerList = new List<string>() { "MercyMe", "Chris Tomlin", "King & Country", };
-        }
 
         private T[] items = new T[1];
         public T this[int i]
@@ -49,13 +44,10 @@ namespace CustomListProject
 
             }
         }
-        public string AddSinger(string count)
 
-        
-       
-        
-        
-        
+
+
+
 
 
     }
